@@ -1,0 +1,33 @@
+{
+    "name": "ncr-cli-files",
+    "version": "1.0.0",
+    "description": "Generate files trhough the command cosole",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Noecr-dev/ncr-cli-files.git"
+    },
+    "keywords": [
+        "js",
+        "kt",
+        "rb",
+        "ts",
+        "java"
+    ],
+    "author": "NCR",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Noecr-dev/ncr-cli-files/issues"
+    },
+    "homepage": "https://github.com/Noecr-dev/ncr-cli-files#readme",
+    "dependencies": {
+        "chalk": "^3.0.0",
+        "figlet": "^1.2.4",
+        "inquirer": "^7.0.1",
+        "shelljs": "^0.8.3"
+    },
+    "bin": "./index.js"
+}
